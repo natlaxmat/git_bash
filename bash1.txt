@@ -1,34 +1,34 @@
-task 1
+Task 1
 
-01. *created the bash1.txt file                  Предварительно создайте файл bash1.txt, в который вы будете добавлять выполненные команды
-02. cd ~                                         Открыть домашнюю директорию через терминал  
-03. pwd                                          Определить имя папки, в которой вы находитесь
-04. mkdir test1                                  Создать внутри этой папки каталог с именем test1
-05. cd test1                                     Перейти в папку test1
-06. touch 1 2 3                                  Создать файл 1,2 и 3 внутри каталога test1
-07. ls                                           Проверить содержимое каталога test1
-08. cd ~                                         Перейти в домашнюю директорию
-09. mkdir test2                                  Создать папку test2 внутри домашней директории
-10. rmdir test2                                  Удалить папку test2
-11. rm test1/2                                   Удалить файл 2 из папки test1
-12. mkdir test3                                  Создать папку в домашней директории test3 и добавить в нее два файла
+01. *created the bash1.txt file                  # First create a file bash1.txt, where you will add the executed commands
+02. cd ~                                         # Open home directory via terminal  
+03. pwd                                          # Determine the name of the folder you are in
+04. mkdir test1                                  # Create a directory inside this folder called 'test1'
+05. cd test1                                     # Go to the 'test1' folder
+06. touch 1 2 3                                  # Create files '1','2' and '3' inside the 'test1' directory
+07. ls                                           # Check the contents of the 'test1' directory 
+08. cd ~                                         # Go to home directory
+09. mkdir test2                                  # Create the 'test2' folder inside your home directory
+10. rmdir test2                                  # Delete the 'test2' folder
+11. rm test1/2                                   # Delete the file '2' from the 'test1' folder
+12. mkdir test3                                  # Create the 'test3' folder in the home directory and add two files to it
     touch ~/test3/1 ~/test3/2
-13. rm ~/test3                                   Удалить папку test3 
-14. mkdir test4                                  Создать папку test4 в домашней директории
-15. mv test1/1 test/3 test4/                     Переместить файлы 1 и 3 из папки test1 в папку test4 
-16. echo "line" >> test1/1                       Добавить в файл 1 три строки со словами line
+13. rm ~/test3                                   # Delete the 'test3' folder
+14. mkdir test4                                  # Create the 'test4' folder in your home directory
+15. mv test1/1 test/3 test4/                     # Move the files '1' and '3' from the 'test1' folder to the 'test4' folder 
+16. echo "line" >> test1/1                       # Add three lines with words 'line' to the 'file 1' folder
     echo "line" >> test1/1
     echo "line" >> test1/1	
 	-or-
     echo -e "line\nline\nline" >> test1/1
-17. cat test1/1                                  Посмотреть содержимое файла 1
-18. echo "line" >> test1/3                       Добавьте в файл 3 три строки со словами line
+17. cat test1/1                                  # View the contents of the '1' file
+18. echo "line" >> test1/3                       # Add three lines with the words 'line' to the 'file 3' folder
     echo "line" >> test1/3
     echo "line" >> test1/3
 	-or-
     echo -e "line\nline\nline" >> test1/3
-19. cat test1/1 test1/3                          Просмотрите содержимое двух файлов (1 и 3) сразу
-20. nano test1/1                                 Используя один из редакторов замените все строки в файле 1 
+19. cat test1/1 test1/3                          # View the contents of two files ('1' and '3') at once
+20. nano test1/1                                 # Using one of the editors, replace all lines in the 'file 1'  
 	hello
 	my
 	world
