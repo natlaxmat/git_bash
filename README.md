@@ -1,4 +1,4 @@
-# git_bash
+# 📄 git_bash
 ## **Working with bash** ## 
 
 _There are some bash commands that I used to complete assignmants during my QA studies:_
