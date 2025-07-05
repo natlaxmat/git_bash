@@ -1,7 +1,12 @@
 # git_bash
-**Работа с git и bash**
+## **Работа с bash** ## 
 
-[Ссылка на задание 1](https://github.com/natlaxmat/git_bash/blob/main/bash1.txt)
+_There are some bash commands that I used to complete assignmants during my QA studies:_
 
-[Ссылка на задание 2](https://github.com/natlaxmat/git_bash/blob/main/bash2.txt)
+[Task 1](https://github.com/natlaxmat/git_bash/blob/main/bash1.txt)
 
+[Task 2](https://github.com/natlaxmat/git_bash/blob/main/bash2.txt)
+
+## **Работа с git** ##
+
+_Here are some Git commands I used while building my portfolio on GitHub:_
