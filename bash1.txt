@@ -1,0 +1,34 @@
+Task 1
+
+01. *created the bash1.txt file                  # First create the'bash1.txt' file where you will add the executed commands
+02. cd ~                                         # Open home directory via terminal  
+03. pwd                                          # Determine the name of the folder you are in
+04. mkdir test1                                  # Create a directory inside this folder called 'test1'
+05. cd test1                                     # Go to the 'test1' folder
+06. touch 1 2 3                                  # Create the '1','2' and '3' files inside the 'test1' directory
+07. ls                                           # Check the contents of the 'test1' directory 
+08. cd ~                                         # Go to home directory
+09. mkdir test2                                  # Create the 'test2' folder inside your home directory
+10. rmdir test2                                  # Delete the 'test2' folder
+11. rm test1/2                                   # Delete the '2' file from the 'test1' folder
+12. mkdir test3                                  # Create the 'test3' folder in the home directory and add two files to it
+    touch ~/test3/1 ~/test3/2
+13. rm ~/test3                                   # Delete the 'test3' folder
+14. mkdir test4                                  # Create the 'test4' folder in your home directory
+15. mv test1/1 test/3 test4/                     # Move the '1' and '3' files from the 'test1' folder to the 'test4' folder 
+16. echo "line" >> test1/1                       # Add three lines with words 'line' to the '1' file
+    echo "line" >> test1/1
+    echo "line" >> test1/1	
+	-or-
+    echo -e "line\nline\nline" >> test1/1
+17. cat test1/1                                  # View the contents of the '1' file
+18. echo "line" >> test1/3                       # Add three lines with the words 'line' to the 'file 3' folder
+    echo "line" >> test1/3
+    echo "line" >> test1/3
+	-or-
+    echo -e "line\nline\nline" >> test1/3
+19. cat test1/1 test1/3                          # View the contents of two files ('1' and '3') at once
+20. nano test1/1                                 # Using one of the editors, replace all lines in the '1' file  
+	hello
+	my
+	world
