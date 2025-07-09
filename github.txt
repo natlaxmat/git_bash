@@ -1,6 +1,0 @@
-git init natlaxmat                                              # Create your repository with the same name as your username 
-git clone https://github.com/natlaxmat/natlaxmat.git            # Clone your repository on your computer to a separate folder
-git clone https://github.com/testrusau/testrusau.git            # Clone github.com/testrusau/testrusau on your computer to a separate folder cd testrusau                                                                             
-git push https://github.com/natlaxmat/testrusau.git main:main   # Push data from testrusau repository to your own one
-git commit -m "commited change description"                     # Open the README.md file and replace each block with a separate commit 
-git push origin main                                             
