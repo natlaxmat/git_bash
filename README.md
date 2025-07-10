@@ -63,10 +63,10 @@ echo -e "row1\nrow2\nrow3\nrow4" > ~/test3/6
 12. echo "test" >> ~/test3/4                               # Add the word 'test' to the '4' file so that the content is preserved
 13. ps aux                                                 # View all processes for users not only in the console that occur in the system
     -or-
-    tasklist (для Windows)
+    tasklist (for Windows)
 14. kill 666                                               # Kill the process '666' in console (you don't have to kill it, just write a command)  
     -or-
-    taskkill /PID 666 /F (для Windows)          
+    taskkill /PID 666 /F (for Windows)          
 15. ping rusau.net                                         # Find out the availability of the resource 'rusau.net' using ping
 16. ping -c 5 rusau.net                                    # Send 5 packages to the site: rusau.net
 17. curl https://petstore.swagger.io/v2/pet                # Using GET and curl command, get information about registered pets with any status at                       /findByStatus?status=available,pending,sold              https://petstore.swagger.io/     
