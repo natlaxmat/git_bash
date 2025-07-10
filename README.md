@@ -8,6 +8,7 @@ _There are some bash commands that I used to complete assignmants during my QA s
 - ## Task 1
 
 ##### Working with files and directories
+
 ```bash
 01. *created the bash1.txt file                  # First create the'bash1.txt' file where you will add the executed commands
 02. cd ~                                         # Open home directory via terminal  
@@ -45,7 +46,8 @@ _There are some bash commands that I used to complete assignmants during my QA s
 
 - ## Task 2
 
-##### Editing files, checking and killing proccesses, pinging websites
+##### Editing files, checking and killing proccesses, pinging websites, sending requests
+
 ```bash
 01. *created the bash2.txt file                            # First create the 'bash2.txt' file where you will add the executed commands
 02. cd ~                                                   # Go to your home directory via terminal
