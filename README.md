@@ -29,13 +29,13 @@ _There are some bash commands that I used to complete assignmants during my QA s
 16. echo "line" >> test1/1                       # Add three lines with words 'line' to the '1' file
     echo "line" >> test1/1
     echo "line" >> test1/1	
-	-or-
+    -or-
     echo -e "line\nline\nline" >> test1/1
 17. cat test1/1                                  # View the contents of the '1' file
 18. echo "line" >> test1/3                       # Add three lines with the words 'line' to the 'file 3' folder
     echo "line" >> test1/3
     echo "line" >> test1/3
-	-or-
+    -or-
     echo -e "line\nline\nline" >> test1/3
 19. cat test1/1 test1/3                          # View the contents of two files ('1' and '3') at once
 20. nano test1/1                                 # Using one of the editors, replace all lines in the '1' file  
